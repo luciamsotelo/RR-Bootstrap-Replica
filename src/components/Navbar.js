@@ -12,7 +12,7 @@ const CustomNavbar = () => {
                 {/* Instacart Logo */}
                 <Navbar.Brand href="#">
                     <img
-                        src="https://1000logos.net/wp-content/uploads/2023/04/Instacart-Logo.jpg" // Replace with the actual path or URL of the Instacart logo
+                        src="https://1000logos.net/wp-content/uploads/2023/04/Instacart-Logo.jpg"
                         alt="Instacart Logo"
                         height="100"
                         className="d-inline-block align-top"
@@ -34,11 +34,9 @@ const CustomNavbar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     {/* Navigation Links */}
                     <Nav className="ml-auto">
-                        <Navbar.Toggle>
-                            <Nav.Link href="#">Departments</Nav.Link>
-                            <Nav.Link href="#">More ways to shop</Nav.Link>
-                            <Nav.Link href="#">Help</Nav.Link>
-                        </Navbar.Toggle>
+                            <Nav.Link href="departments">Departments</Nav.Link>
+                            <Nav.Link href="shop">More ways to shop</Nav.Link>
+                            <Nav.Link href="help">Help</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
 
