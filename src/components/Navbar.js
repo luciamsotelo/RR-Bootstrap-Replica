@@ -1,5 +1,6 @@
 // Navbar.js
 import React from "react";
+import '../index.css'
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 
 const CustomNavbar = () => {
@@ -20,10 +21,10 @@ const CustomNavbar = () => {
                 </Navbar.Brand>
 
                 <form class="d-flex" role="search">
-                    <input
+                    <input style={{width: '20em', position:'relative', top: '.25px', left: '.10px'   }}   
                         class="form-control"
                         type="search"
-                        placeholder="Search"
+                        placeholder="Search for products and stores"
                         aria-label="Search"
                     />
                     <button class="btn btn-outline-success" type="submit">
@@ -40,10 +41,10 @@ const CustomNavbar = () => {
                     </Nav>
                 </Navbar.Collapse>
 
-                <button type="button" class="btn btn-link">
+                <button type="button" class="btn btn-link" style={{fontSize:'20px', textDecoration: 'none', color:'black' }}>
                     Log in
                 </button>
-                <button type="button" class="btn btn-success">
+                <button type="button" class="btn btn-success" style={{marginRight:'20px'}}>
                     Sign up
                 </button>
             </Navbar>
