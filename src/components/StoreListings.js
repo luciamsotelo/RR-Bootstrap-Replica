@@ -14,11 +14,11 @@ const StoreListings = () => {
                 }}
             >
                 <Row>
-                    <Col xs="auto">
-                        <Image src="https://www.aldi.com/images/aldi_sued_logo.png" roundedCircle />
+                    <Col xs="auto" style={{marginBottom: "50px", marginTop:"50px"}}>
+                        <Image src="https://www.aldi.com/images/aldi_sued_logo.png" roundedCircle style={{ width: "80px", height: "80px"}} />
                     </Col>
                     <Col>
-                        <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
+                        <h5 style={{ fontWeight: "bold", marginTop:"60px" }}>ALDI</h5>
                         <p>Delivery * Pickup</p>
                     </Col>
                 </Row>
@@ -29,7 +29,7 @@ const StoreListings = () => {
                         
                     </Col>
                     <Col>
-                        <h5 style={{ fontWeight: "bold" }}>
+                        <h5 style={{ fontWeight: "bold", marginTop:"15px" }}>
                             Sprouts Farmers Market
                         </h5>
                         <p>Delivery * Pickup</p>
@@ -37,11 +37,11 @@ const StoreListings = () => {
                 </Row>
                 <Col sm="1"></Col>
                 <Row>
-                    <Col xs="auto">
+                    <Col xs="auto" style={{marginBottom: "50px", marginTop:"50px"}}>
                         <Image src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" roundedCircle style={{ width: "80px", height: "80px" }}/>
                     </Col>
-                    <Col md="6">
-                        <h5 style={{ fontWeight: "bold" }}>Kroger</h5>
+                    <Col sm="1">
+                        <h5 style={{ fontWeight: "bold", marginTop:"61px" }}>Kroger</h5>
                         <p>Delivery</p>
                     </Col>
                 </Row>

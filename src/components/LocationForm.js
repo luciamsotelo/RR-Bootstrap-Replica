@@ -7,9 +7,9 @@ const LocationForm = () => {
         <div className="bg-image">
             <Form className="location-form">
                 {/* Add form elements, e.g., input fields and buttons */}
-                <Button variant="primary" type="submit">
+                {/* <Button variant="primary" type="submit">
                     Submit
-                </Button>
+                </Button> */}
             </Form>
         </div>
     );
