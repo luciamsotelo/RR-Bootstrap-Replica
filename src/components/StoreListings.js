@@ -15,7 +15,7 @@ const StoreListings = () => {
             >
                 <Row>
                     <Col xs="auto">
-                        <Image src="[IMG SRC]" roundedCircle />
+                        <Image src="https://www.aldi.com/images/aldi_sued_logo.png" roundedCircle />
                     </Col>
                     <Col>
                         <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
@@ -25,7 +25,8 @@ const StoreListings = () => {
                 <Col sm="1"></Col>
                 <Row>
                     <Col xs="auto">
-                        <Image src="[IMG SRC]" roundedCircle />
+                        <Image src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" roundedCircle style={{ width: "80px", height: "80px" }}/>
+                        
                     </Col>
                     <Col>
                         <h5 style={{ fontWeight: "bold" }}>
@@ -37,7 +38,7 @@ const StoreListings = () => {
                 <Col sm="1"></Col>
                 <Row>
                     <Col xs="auto">
-                        <Image src="[IMG SRC]" roundedCircle />
+                        <Image src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" roundedCircle style={{ width: "80px", height: "80px" }}/>
                     </Col>
                     <Col md="6">
                         <h5 style={{ fontWeight: "bold" }}>Kroger</h5>
